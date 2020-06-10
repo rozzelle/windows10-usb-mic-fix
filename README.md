@@ -8,8 +8,8 @@ Wrote a batch script to fix the issue with Windows detecting USB microphones on 
 1. Use the Windows key + R keyboard shortcut to open the Run command
 1. Type the following command:
 
-`shell:startup`
-Inline-style:
+	`shell:startup`
+
 ![](https://www.windowscentral.com/sites/wpcentral.com/files/styles/w830/public/field/image/2020/04/shell-startup-run.jpg?itok=_sfMwqDC)
 
 6. Run shell startup command
