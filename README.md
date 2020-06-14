@@ -1,5 +1,5 @@
 # windows10-usb-mic-fix
-Wrote a batch script to fix the issue with Windows detecting USB microphones on restart. Removes and re-enables USB microphones to force Windows to re-install drivers on restart. Stems from an issue where the driver doesn't initialize properly until you plug it in the port and kick-start the OS device discovery process.
+Wrote a batch script to fix the issue with Windows detecting USB microphones on restart. Uses DevCon to remove and re-enable USB microphones to force Windows to re-install drivers on restart. Stems from an issue where the driver doesn't initialize properly until you plug it in the port and kick-start the OS device discovery process.
 
 ## Making the script run on startup
 1. Open File Explorer.
